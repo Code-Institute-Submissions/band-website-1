@@ -24,3 +24,8 @@ body {
 .navbar-dark .navbar-toggler {
     border-color: transparent;
 }
+
+/*---------- Footer styles -----------*/
+.social-btn {
+    font-size: 18px;
+}
