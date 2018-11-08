@@ -26,6 +26,10 @@ body {
 }
 
 /*---------- Footer styles -----------*/
+.copyright-text {
+    font-size: 14px;
+}
+
 .social-btn {
     font-size: 18px;
 }
