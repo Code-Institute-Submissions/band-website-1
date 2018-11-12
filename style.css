@@ -4,7 +4,7 @@ body {
     background-color: #434343;
 }
 
-/*---------- NavBar styles adjustments -----------*/
+/*---------- NavBar styles -----------*/
 .navbar-brand {
     font-weight: 700;
 }
@@ -25,6 +25,27 @@ body {
     border-color: transparent;
 }
 
+/*---------- Banner styles -----------*/
+.banner {
+    background-color: #fff;
+    width: 96%;
+}
+
+.banner .row {
+    background-color: #fff;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+.bigger-text {
+    font-size: 2.5rem;
+}
+
 /*---------- Footer styles -----------*/
 .copyright-text {
     font-size: 14px;
@@ -41,4 +62,24 @@ body {
     .social-btn {
         font-size: 22px;
     }
+}
+
+@media screen and (max-width: 476px) {
+    .title {
+        font-size: 1.4rem;
+    }
+    
+    .bigger-text {
+        font-size: 1.8rem;
+    }   
+}
+
+@media screen and (min-width: 1200px) {
+    .title {
+        font-size: 3rem;
+    }
+    
+    .bigger-text {
+        font-size: 3.6rem;
+    }   
 }
