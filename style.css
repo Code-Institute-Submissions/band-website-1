@@ -5,6 +5,10 @@ body {
 }
 
 /*---------- NavBar styles -----------*/
+.navbar {
+    background-color: #434343;
+}
+
 .navbar-brand {
     font-weight: 700;
 }
@@ -26,6 +30,10 @@ body {
 }
 
 /*---------- Banner styles -----------*/
+#home {
+    margin-top: 56px;
+}
+
 .banner {
     background-color: #fff;
     width: 96%;
@@ -46,6 +54,20 @@ body {
     font-size: 2.5rem;
 }
 
+/*---------- About styles -----------*/
+#about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bio {
+    width: 60%;
+}
+
+.member-name {
+    font-size: 1.25rem;
+}
+
 /*---------- Footer styles -----------*/
 .copyright-text {
     font-size: 14px;
@@ -54,8 +76,6 @@ body {
 .social-btn {
     font-size: 18px;
 }
-
-
 
 /*---------- Media Queries -----------*/
 @media screen and (max-width: 576px) {
