@@ -68,6 +68,33 @@ body {
     font-size: 1.25rem;
 }
 
+/*---------- Music styles -----------*/
+#music {
+    width: 96%;
+    background-color: #fff;
+    color: #434343;
+}
+
+.music-video {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.album-cover {
+    width: 120px;
+}
+
+.media-body {
+    min-width: 300px;
+}
+
+.audio-player {
+    display: block;
+}
+
+
+
 /*---------- Footer styles -----------*/
 .copyright-text {
     font-size: 14px;
@@ -102,4 +129,10 @@ body {
     .bigger-text {
         font-size: 3.6rem;
     }   
+}
+
+@media screen and (min-width: 576px) {
+    .media-item {
+        margin-left: 100px;
+    }
 }
