@@ -93,7 +93,31 @@ body {
     display: block;
 }
 
+/*---------- Live styles -----------*/
+#live {
+    width: 96%;
+    background-color: #434343;
+}
 
+.live-table {
+    width: 90%;
+}
+
+.tickets-button {
+    background-color: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: .9rem;
+    cursor: pointer;
+    width: 60px;
+    text-align: center;
+    transition: .3s;
+}
+
+.tickets-button:hover {
+    background-color: #fff;
+    color: #434343;
+}
 
 /*---------- Footer styles -----------*/
 .copyright-text {
@@ -108,6 +132,10 @@ body {
 @media screen and (max-width: 576px) {
     .social-btn {
         font-size: 22px;
+    }
+    
+    .music-video {
+        width: 95%;
     }
 }
 
