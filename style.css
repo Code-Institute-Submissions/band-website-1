@@ -60,7 +60,7 @@ body {
     margin-bottom: 50px;
 }
 
-.bio {
+.text-width {
     width: 60%;
 }
 
@@ -83,10 +83,6 @@ body {
 
 .album-cover {
     width: 120px;
-}
-
-.media-body {
-    min-width: 300px;
 }
 
 .audio-player {
@@ -119,6 +115,19 @@ body {
     color: #434343;
 }
 
+/*---------- Book styles -----------*/
+#book {
+    width: 96%;
+    background-color: #fff;
+    color: #434343;
+}
+
+.contact-form {
+    margin: 0 auto;
+    width: 280px;
+    text-align: center;
+}
+
 /*---------- Footer styles -----------*/
 .copyright-text {
     font-size: 14px;
@@ -136,6 +145,13 @@ body {
     
     .music-video {
         width: 95%;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    audio {
+        position: relative;
+        left: -12px;
     }
 }
 

@@ -55,6 +55,7 @@
             </div>
         </section>
         
+        <!--ABOUT-->
         <section id="about">
             <div class="container-fluid">
                 <h2 class="text-light text-center py-5">ABOUT</h2>
@@ -75,13 +76,14 @@
                         <img src="./assets/images/rs.jpg" class="img-thumbnail rounded" alt="Ringo Starr image">
                         <p class="text-center text-light font-italic font-weight-bold py-3 member-name">Ringo</p>
                     </div>
-                    <div class="row bio text-light">
+                    <div class="row text-width text-light">
                         <p class="text-center">The Beatles are a legendary rock group that formed in Liverpool, England, in 1960, and went on to transform popular music as a creative, highly commercial art form over the next decade. Over 50 years later they continue to inspire musicians and entertain fans worldwide.</p>
                     </div>
                 </div>
             </div>
         </section>
         
+        <!--MUSIC-->
         <section id="music" class="mx-auto">
             <div class="container-fluid">
                 <h2 class="text-dark text-center py-5">MUSIC</h2>
@@ -152,56 +154,79 @@
         </section>
         
         <!--LIVE-->
-        <section id="live mx-auto">
+        <section id="live" class="mx-auto">
             <div class="container-fluid">
                 <h2 class="text-light text-center py-5">LIVE</h2>
                 <div class="row pb-5">
                     <div class="col">
-                        <table class="table text-light live-table mx-auto">
+                        <table class="table table-responsive-sm text-light live-table mx-auto">
                             <tr>
                                 <th class="align-middle">07 JUNE 2019</th>
                                 <td class="text-monospace align-middle">Star Club</td>
                                 <td class="text-monospace align-middle">Hamburg, Germany</td>
-                                <td><a href="#" class="nav-link"><div class="tickets-button">Tickets</div></a></td>
+                                <td><a href="#" class="nav-link" target="_blank"><div class="tickets-button">Tickets</div></a></td>
                             </tr>
                             <tr>
                                 <th class="align-middle">14 JUNE 2019</th>
                                 <td class="text-monospace align-middle">The Cavern Club</td>
                                 <td class="text-monospace align-middle">Liverpool, England</td>
-                                <td><a href="#" class="nav-link"><div class="tickets-button">Tickets</div></a></td>
+                                <td><a href="#" class="nav-link" target="_blank"><div class="tickets-button">Tickets</div></a></td>
                             </tr>
                             <tr>
                                 <th class="align-middle">21 JUNE 2019</th>
                                 <td class="text-monospace align-middle">London Palladium</td>
                                 <td class="text-monospace align-middle">London, England</td>
-                                <td><a href="#" class="nav-link"><div class="tickets-button">Tickets</div></a></td>
+                                <td><a href="#" class="nav-link" target="_blank"><div class="tickets-button">Tickets</div></a></td>
                             </tr>
                             <tr>
                                 <th class="align-middle">28 JUNE 2019</th>
                                 <td class="text-monospace align-middle">Shea Stadium</td>
                                 <td class="text-monospace align-middle">New York City, NY, US</td>
-                                <td><a href="#" class="nav-link"><div class="tickets-button">Tickets</div></a></td>
+                                <td><a href="#" class="nav-link" target="_blank"><div class="tickets-button">Tickets</div></a></td>
                             </tr>
                             <tr>
                                 <th class="align-middle">05 JULY 2019</th>
                                 <td class="text-monospace align-middle">Hollywood Bowl</td>
                                 <td class="text-monospace align-middle">Los Angeles, CA, US</td>
-                                <td><a href="#" class="nav-link"><div class="tickets-button">Tickets</div></a></td>
+                                <td><a href="#" class="nav-link" target="_blank"><div class="tickets-button">Tickets</div></a></td>
                             </tr>
                             <tr>
                                 <th class="align-middle">12 JULY 2019</th>
                                 <td class="text-monospace align-middle">Apple Records (rooftop)</td>
                                 <td class="text-monospace align-middle">London, England</td>
-                                <td><a href="#" class="nav-link"><div class="tickets-button">Tickets</div></a></td>
+                                <td><a href="#" class="nav-link" target="_blank"><div class="tickets-button">Tickets</div></a></td>
                             </tr>
                         </table>
-                        
                     </div>
                 </div>
             </div>
         </section>
 
-        <!--BOOK--> 
+        <!--BOOK-->
+        <section id="book" class="mx-auto">
+            <div class="container-fluid">
+                <h2 class="text-dark text-center py-5">BOOK</h2>
+                <div class="row">
+                    <div class="col-12 text-dark">
+                        <p class="text-center text-width mx-auto">Despite being the best-selling band in history, you can also have The Beatles play at your wedding, or your next Christmas party.<br>Fill in the booking form below and we'll be right back in touch with you!</p>
+                    </div>
+                    <form class="contact-form pt-2 pb-5">
+                        <input type="text" name="name" class="form-control my-2" id="fullname" placeholder="Name" required>
+                        <input type="text" name="emailaddress" class="form-control my-2" id="emailaddress" placeholder="Email" required>
+                        <select class="form-control"required>
+                            <optgroup>
+                                <option value="" disabled selected>Event</option>
+                                <option>Wedding</option>
+                                <option>Christmas Party</option>
+                                <option>Other</option>
+                            </optgroup>
+                        </select>
+                        <textarea name="bookingmessage" class="form-control my-2" id="bookingmessage" placeholder="Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-secondary my-2" name="Submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
         
         <footer>
             <div class="container-fluid">
