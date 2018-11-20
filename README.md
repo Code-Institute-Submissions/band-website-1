@@ -33,13 +33,13 @@ This site was based on an initial mockup designed on Adobe XD and the image file
 Languages, frameworks, libraries, and any other tools used to construct this project. 
 
 - [Bootstrap](https://getbootstrap.com/)
-    - The project uses **Bootstrap** to simplify responsiveness and provide a grid framework.
+    - The project uses **Bootstrap** to assist with responsive behaviour and to provide a grid framework.
 
 ## Testing
 
 This project was tested for responsiveness using the Chrome Developer Tools mobile device simulator. It was also viewed on physical Samsung Galaxy A5 and Apple iPhone SE mobile devices to ensure good responsive behaviour.
 
-The site was also checked using the W3C Validation Tool [here](http://validator.w3.org).
+The site was also checked using the W3C Validation Tool [here](http://validator.w3.org) and passed with error or warning.
 
 ## Deployment
 
