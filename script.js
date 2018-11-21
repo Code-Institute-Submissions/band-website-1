@@ -6,4 +6,13 @@ $(document).ready(function() {
 			scrollTop: $($.attr(this, 'href')).offset().top
 		}, 1000);
 	});
+	
+	// Show modal on send button submit then clear form
+	$('#sendForm').on('submit', function(event) {
+		event.preventDefault();
+		$('#sendModal').modal('show');
+		$('#fullname').val('');
+		$('#emailaddress').val('');
+		$('#bookingmessage').val('');
+	})
 });
