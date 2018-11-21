@@ -4,6 +4,27 @@ body {
     background-color: #434343;
 }
 
+#back-to-top-btn {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    position: fixed;
+    right: 5%;
+    top: 88%;
+    background-color: #434343;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding-top: 12px;
+    z-index: 999;
+    cursor: pointer;
+    display: none;
+}
+
+#back-to-top-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /*---------- NavBar styles -----------*/
 .navbar {
     background-color: #434343;

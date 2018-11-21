@@ -15,4 +15,12 @@ $(document).ready(function() {
 		$('#emailaddress').val('');
 		$('#bookingmessage').val('');
 	})
+	
+	$(window).scroll(function() {
+		if (window.scrollY > 600) {
+			$('#back-to-top-btn').show();
+		} else {
+			$('#back-to-top-btn').hide();
+		}
+	});
 });
