@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    
     // Add scroll functionality to navigation items
     $(document).on('click', 'a[href^="#"]', function(event){
 		event.preventDefault();
@@ -16,6 +17,7 @@ $(document).ready(function() {
 		$('#bookingmessage').val('');
 	})
 	
+	// show / hide 'back to top' button depending on scroll Y value
 	$(window).scroll(function() {
 		if (window.scrollY > 600) {
 			$('#back-to-top-btn').show();
