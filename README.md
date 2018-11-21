@@ -1,6 +1,6 @@
-# The Beatles band website
+# Band Website
 
-A showcase website for the band to exhibit their music and videos, as well as their availability to perform at weddings and Christmas parties.
+A showcase website for a band to exhibit their music and videos, as well as their availability to perform at weddings and Christmas parties. For this project I used The Beatles as the band in question.
 
 Built for Project no.1 in the Full Stack Software Development bootcamp at Code Institute, in the User Centric Frontend Development lesson.
  
@@ -39,7 +39,7 @@ Languages, frameworks, libraries, and any other tools used to construct this pro
 
 This project was tested for responsiveness using the Chrome Developer Tools mobile device simulator. It was also viewed on physical Samsung Galaxy A5 and Apple iPhone SE mobile devices to ensure good responsive behaviour.
 
-The site was also checked using the W3C Validation Tool [here](http://validator.w3.org) and passed with error or warning.
+The site was also checked using the W3C Validation Tool [here](http://validator.w3.org) and passed without error or warning.
 
 ## Deployment
 
