@@ -32,20 +32,32 @@ This site was based on an initial mockup designed on Adobe XD and the image file
 
 Languages, frameworks, libraries, and any other tools used to construct this project. 
 
+- HTML 5
+    - This project uses **HTML** to structure the content of the website.
+- CSS 3
+    - The project uses **CSS** to add styling and to adjust the default styling of components provided by the Bootstrap framework. It was also used to add media queries to assist in the responsive behaviour of the site.
 - [Bootstrap](https://getbootstrap.com/)
-    - The project uses **Bootstrap** to assist with responsive behaviour and to provide a grid framework.
+    - This project uses **Bootstrap** to assist with responsive behaviour and to provide a grid framework.
+- JavaScript
+    - The project uses **JavaScript** to add some interactive behaviour, particularly while using the jQuery library.
+- [jQuery](https://jquery.com/)
+    - This project uses **jQuery** to provide some minor interactive features such as page scrolling and form submission modal handling
 
 ## Testing
 
-This project was tested for responsiveness using the Chrome Developer Tools mobile device simulator. It was also viewed on physical Samsung Galaxy A5 and Apple iPhone SE mobile devices to ensure good responsive behaviour.
+This project was developed incrementally with continuous checking to ensure all changes to source code were providing the desired outcome. The site was build using Google Chrome browser for this purpose, then later tested in other browsers.
 
-The site was also checked using the W3C Validation Tool [here](http://validator.w3.org) and passed without error or warning.
+This project was tested for responsiveness using the Chrome Developer Tools mobile device simulator. It was also viewed on physical Samsung Galaxy A5 and Apple iPhone SE mobile devices to ensure good responsive behaviour. The site was also tested in Mozilla Firefox and Microsoft Edge browsers to ensure appearance and functionality of the site was as expected across all 3 of these browsers.
+
+The site was also checked using the W3C Validation Tool [here](http://validator.w3.org) to check both HTML markup and CSS styles and both passed without error or warning.
 
 ## Deployment
 
-This project was deployed on GitHub Pages by simply accessing the project's settings page then selecting the Master branch in the drop-down menu for deploying the project on GitHub pages.
+GitHub was used for version control and to host the code by pushing all code to the repo on GitHub.
 
-The project can be viewed [here](https://kes2401.github.io/band-website/).
+This project was then deployed on GitHub Pages by simply accessing the project's settings page then selecting the Master branch in the drop-down menu for deploying the project on GitHub Pages.
+
+The live project can be viewed [here](https://kes2401.github.io/band-website/).
 
 ## Credits
 
